@@ -13,7 +13,7 @@ public void Check()
 	System.setProperty("webdriver.chrome.driver","C:\\Driver\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("https://www.hdfcbank.com/entryihuh");
+	driver.get("https://www.hdfcbank.com/");
 	
 }
 	
